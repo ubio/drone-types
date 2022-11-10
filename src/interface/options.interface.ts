@@ -1,6 +1,6 @@
 export type ReportingLevel = 'debug' | 'info' | 'error' | 'mute';
 
-export interface ITaskOptions {
+export interface TaskOptions {
     logLevel: ReportingLevel;
     screenshotLevel: ReportingLevel;
     htmlSnapshotLevel: ReportingLevel;

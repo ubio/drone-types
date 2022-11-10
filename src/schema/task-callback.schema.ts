@@ -1,7 +1,7 @@
 import { Schema } from '@ubio/framework';
-import { ITaskCallback } from '../interface/index.js';
+import { TaskCallback } from '../interface/index.js';
 
-export const TaskCallback = new Schema<ITaskCallback>({
+export const TaskCallbackSchema = new Schema<TaskCallback>({
     schema: {
         type: 'object',
         properties: {

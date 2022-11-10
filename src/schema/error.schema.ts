@@ -1,7 +1,7 @@
 import { Schema } from '@ubio/framework';
-import { ITaskError } from '../interface/index.js';
+import { TaskError } from '../interface/index.js';
 
-export const TaskError = new Schema<ITaskError>({
+export const TaskErrorSchema = new Schema<TaskError>({
     schema: {
         type: 'object',
         required: ['name', 'message', 'scriptError'],

@@ -1,8 +1,8 @@
 import { Schema } from "@ubio/framework";
-import { ITaskOptions, reportingLevelType } from "../interface/options.interface.js";
+import { TaskOptions, reportingLevelType } from "../interface/options.interface.js";
 
 
-export const TaskOptions = new Schema<ITaskOptions>({
+export const TaskOptionsSchema = new Schema<TaskOptions>({
     schema: {
         type: 'object',
         required: ['logLevel', 'screenshotLevel', 'htmlSnapshotLevel'],

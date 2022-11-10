@@ -1,4 +1,4 @@
-export interface ITaskMetadata {
+export interface TaskMetadata {
     architecture?: string;
     runtime?: string;
     provider?: string;

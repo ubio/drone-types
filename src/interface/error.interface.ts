@@ -1,4 +1,4 @@
-export interface ITaskError {
+export interface TaskError {
     name: string;
     message: string;
     details?: any;

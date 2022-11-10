@@ -1,7 +1,7 @@
-import { ITask, ITaskCallback } from "./index.js";
+import { Task, TaskCallback } from "./index.js";
 
-export interface IQueuePayload {
-    task: ITask;
-    callback: ITaskCallback | null;
+export interface QueuePayload {
+    task: Task;
+    callback: TaskCallback | null;
     sync: boolean;
 }

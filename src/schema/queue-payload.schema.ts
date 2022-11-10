@@ -1,13 +1,13 @@
 import { Schema } from '@ubio/framework';
-import { IQueuePayload } from '../interface/index.js';
-import { Task, TaskCallback } from './index.js';
+import { QueuePayload } from '../interface/index.js';
+import { TaskSchema, TaskCallbackSchema } from './index.js';
 
-export const QueuePayload = new Schema<IQueuePayload>({
+export const QueuePayloadSchema = new Schema<QueuePayload>({
     schema: {
         type: 'object',
         properties: {
-            task: Task.schema,
-            callback: { ...TaskCallback.schema, nullable: true },
+            task: TaskSchema.schema,
+            callback: { ...TaskCallbackSchema.schema, nullable: true },
             sync: { type: 'boolean' }
         }
     }

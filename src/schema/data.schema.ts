@@ -1,7 +1,7 @@
 import { Schema } from '@ubio/framework';
-import { ITaskData } from '../interface/index.js'
+import { TaskData } from '../interface/index.js'
 
-export const TaskData = new Schema<ITaskData>({
+export const TaskDataSchema = new Schema<TaskData>({
     schema: {
         type: 'object',
         required: ['key', 'data', 'timestamp'],

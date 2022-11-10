@@ -1,7 +1,7 @@
 import { Schema } from '@ubio/framework';
-import { IDroneCachingConfig } from '../interface/index.js';
+import { DroneCachingConfig } from '../interface/index.js';
 
-export const DroneCachingConfig = new Schema<IDroneCachingConfig>({
+export const DroneCachingConfigSchema = new Schema<DroneCachingConfig>({
     schema: {
         type: 'object',
         required: ['url', 'ttlInMilliseconds', 'forceCaching', 'enabled'],

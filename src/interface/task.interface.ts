@@ -1,13 +1,13 @@
-import { ITaskData, ITaskError, ITaskMetadata, ITaskOptions } from './index.js';
+import { TaskData, TaskError, TaskMetadata, TaskOptions } from './index.js';
 
-export interface ITask {
+export interface Task {
     id: string;
     serviceId: string;
-    inputs: ITaskData[];
-    outputs: ITaskData[];
-    error?: ITaskError;
+    inputs: TaskData[];
+    outputs: TaskData[];
+    error?: TaskError;
     startedAt: number;
     finishedAt?: number;
-    options: ITaskOptions;
-    metadata?: ITaskMetadata;
+    options: TaskOptions;
+    metadata?: TaskMetadata;
 }
