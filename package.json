@@ -1,0 +1,23 @@
+{
+  "name": "drone-types",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "out/index.js",
+  "scripts": {
+    "lint": "eslint --ext=.js,.ts --cache .",
+    "clean": "rm -rf out; rm -f tsconfig.tsbuildinfo",
+    "compile": "npm run clean && tsc",
+    "format": "cd src/ && pretty-quick --staged"
+  },
+  "keywords": [],
+  "author": "ubio",
+  "license": "ISC",
+  "pre-commit": [
+    "format",
+    "lint"
+  ],
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  }
+}
