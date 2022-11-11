@@ -6,3 +6,4 @@ export * from "./queue-payload.interface.js";
 export * from "./task-callback.interface.js";
 export * from "./task-metadata.interface.js";
 export * from "./task.interface.js";
+export * from "./task-params.interface.js";
