@@ -1,4 +1,4 @@
-import { Room } from "./room.interface.js";
+import { Room } from './room.interface.js';
 
 export interface Result {
     estimated: boolean;

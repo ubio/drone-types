@@ -1,4 +1,4 @@
-import { NamedPrice, Price } from "../generic/index.js";
+import { NamedPrice, Price } from '../generic/index.js';
 
 export interface Rate {
     name: string;

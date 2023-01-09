@@ -1,4 +1,4 @@
-import { TaskCallback, TaskOptions } from "./index.js";
+import { TaskCallback, TaskOptions } from './index.js';
 
 export interface TaskRunSyncParams {
     taskId: string | null;

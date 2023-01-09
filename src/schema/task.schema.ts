@@ -15,8 +15,8 @@ export const TaskSchema = new Schema<Task>({
             error: { ...TaskErrorSchema.schema, optional: true },
             startedAt: { type: 'integer' },
             finishedAt: { type: 'integer', optional: true },
-            metadata: { ...TaskMetadataSchema.schema, optional: true }
-        }
+            metadata: { ...TaskMetadataSchema.schema, optional: true },
+        },
     },
     defaults: () => {
         return {
@@ -25,5 +25,5 @@ export const TaskSchema = new Schema<Task>({
             outputs: [],
             startedAt: Date.now(),
         };
-    }
+    },
 });

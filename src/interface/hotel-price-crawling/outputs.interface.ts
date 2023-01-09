@@ -1,4 +1,4 @@
-import { Hotel, ResultItem } from "./index.js";
+import { Hotel, ResultItem } from './index.js';
 
 export interface Outputs {
     hotel: Hotel;

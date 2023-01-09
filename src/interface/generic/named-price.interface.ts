@@ -1,4 +1,4 @@
-import { Price } from "./price.interface.js";
+import { Price } from './price.interface.js';
 
 export interface NamedPrice {
     type: 'NamedPrice';

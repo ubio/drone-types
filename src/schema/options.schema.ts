@@ -1,6 +1,5 @@
-import { Schema } from "@ubio/framework";
-import { TaskOptions, reportingLevelType } from "../interface/options.interface.js";
-
+import { Schema } from '@ubio/framework';
+import { TaskOptions, reportingLevelType } from '../interface/options.interface.js';
 
 export const TaskOptionsSchema = new Schema<TaskOptions>({
     schema: {
@@ -10,7 +9,7 @@ export const TaskOptionsSchema = new Schema<TaskOptions>({
             logLevel: reportingLevelType,
             screenshotLevel: reportingLevelType,
             htmlSnapshotLevel: reportingLevelType,
-            taskTimeoutMin: { type: 'number', optional: true }
-        }
-    }
+            taskTimeoutMin: { type: 'number', optional: true },
+        },
+    },
 });

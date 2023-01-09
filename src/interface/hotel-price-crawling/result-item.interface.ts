@@ -1,4 +1,4 @@
-import { Result, Search } from "./index.js";
+import { Result, Search } from './index.js';
 
 export interface ResultItem {
     search: Search;

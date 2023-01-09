@@ -11,6 +11,6 @@ export const TaskCallbackSchema = new Schema<TaskCallback>({
                 properties: {},
                 additionalProperties: { type: 'string' },
             },
-        }
-    }
+        },
+    },
 });

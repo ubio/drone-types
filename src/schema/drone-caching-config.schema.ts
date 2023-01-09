@@ -11,7 +11,7 @@ export const DroneCachingConfigSchema = new Schema<DroneCachingConfig>({
             forceCaching: { type: 'boolean', default: false },
             enabled: { type: 'boolean', default: true },
             ignoreQueryParams: { type: 'boolean', default: true },
-            reportWithUrls: { type: 'boolean', default: false }
+            reportWithUrls: { type: 'boolean', default: false },
         },
     },
 });

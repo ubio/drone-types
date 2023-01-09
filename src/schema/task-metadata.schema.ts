@@ -7,32 +7,32 @@ export const TaskMetadataSchema = new Schema<TaskMetadata>({
         properties: {
             architecture: {
                 type: 'string',
-                optional: true
+                optional: true,
             },
             provider: {
                 type: 'string',
-                optional: true
+                optional: true,
             },
             runtime: {
                 type: 'string',
-                optional: true
+                optional: true,
             },
             os: {
                 type: 'string',
-                optional: true
+                optional: true,
             },
             startedAt: {
                 type: 'number',
-                optional: true
+                optional: true,
             },
             finishedAt: {
                 type: 'number',
-                optional: true
+                optional: true,
             },
             droneHostname: {
                 type: 'string',
-                optional: true
-            }
+                optional: true,
+            },
         },
     },
 });

@@ -1,5 +1,5 @@
-import { Link } from "../generic/link.interface.js";
-import { Rate } from "./rate.interface.js";
+import { Link } from '../generic/link.interface.js';
+import { Rate } from './rate.interface.js';
 
 export interface Room {
     name: string;

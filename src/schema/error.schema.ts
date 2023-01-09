@@ -10,6 +10,6 @@ export const TaskErrorSchema = new Schema<TaskError>({
             message: { type: 'string' },
             details: { optional: true } as any,
             scriptError: { type: 'boolean' },
-        }
-    }
+        },
+    },
 });

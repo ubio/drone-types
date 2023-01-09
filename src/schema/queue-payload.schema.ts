@@ -8,7 +8,7 @@ export const QueuePayloadSchema = new Schema<QueuePayload>({
         properties: {
             task: TaskSchema.schema,
             callback: { ...TaskCallbackSchema.schema, nullable: true },
-            sync: { type: 'boolean' }
-        }
-    }
+            sync: { type: 'boolean' },
+        },
+    },
 });

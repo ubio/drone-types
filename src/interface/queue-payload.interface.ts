@@ -1,4 +1,4 @@
-import { Task, TaskCallback } from "./index.js";
+import { Task, TaskCallback } from './index.js';
 
 export interface QueuePayload {
     task: Task;

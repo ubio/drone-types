@@ -1,4 +1,4 @@
-import { ResultItem, Search } from "./index.js";
+import { ResultItem, Search } from './index.js';
 
 export interface Inputs {
     url: string;

@@ -9,5 +9,5 @@ export interface TaskOptions {
 
 export const reportingLevelType = {
     type: 'string' as const,
-    enum: ['mute', 'debug', 'error', 'info']
+    enum: ['mute', 'debug', 'error', 'info'],
 };
