@@ -1,4 +1,5 @@
 import { Schema } from '@ubio/framework';
+
 import { DroneCachingConfig } from '../interface/index.js';
 
 export const DroneCachingConfigSchema = new Schema<DroneCachingConfig>({

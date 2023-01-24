@@ -1,4 +1,5 @@
 import { Schema } from '@ubio/framework';
+
 import { TaskCallback } from '../interface/index.js';
 
 export const TaskCallbackSchema = new Schema<TaskCallback>({

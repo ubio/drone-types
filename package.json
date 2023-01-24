@@ -28,6 +28,8 @@
         "lint"
     ],
     "devDependencies": {
+        "@ubio/eslint-config": "^1.4.4",
+        "eslint": "^8.32.0",
         "prettier": "^2.8.2",
         "typescript": "^4.8.4"
     },

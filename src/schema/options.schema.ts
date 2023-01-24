@@ -1,5 +1,6 @@
 import { Schema } from '@ubio/framework';
-import { TaskOptions, reportingLevelType } from '../interface/options.interface.js';
+
+import { reportingLevelType, TaskOptions } from '../interface/options.interface.js';
 
 export const TaskOptionsSchema = new Schema<TaskOptions>({
     schema: {

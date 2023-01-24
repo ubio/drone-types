@@ -1,4 +1,5 @@
 import { Schema } from '@ubio/framework';
+
 import { TaskError } from '../interface/index.js';
 
 export const TaskErrorSchema = new Schema<TaskError>({

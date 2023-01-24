@@ -1,4 +1,5 @@
 import { Schema } from '@ubio/framework';
+
 import { TaskData } from '../interface/index.js';
 
 export const TaskDataSchema = new Schema<TaskData>({
