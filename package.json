@@ -8,11 +8,21 @@
         "lint": "eslint --ext=.js,.ts --cache .",
         "clean": "rm -rf out; rm -f tsconfig.tsbuildinfo",
         "compile": "npm run clean && tsc",
-        "format": "prettier --write '**/*.{ts,json}'"
+        "format": "prettier --write '**/*.{ts,json}'",
+        "preversion": "npm run lint && npm run compile",
+        "postversion": "npm publish --access public && git push origin master --tags"
     },
     "keywords": [],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ubio/drone-types"
+    },
     "author": "ubio",
     "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ubio/drone-types/issues"
+    },
+    "homepage": "https://github.com/ubio/drone-types#readme",
     "pre-commit": [
         "format",
         "lint"
