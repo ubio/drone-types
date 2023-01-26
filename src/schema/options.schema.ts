@@ -11,6 +11,7 @@ export const TaskOptionsSchema = new Schema<TaskOptions>({
             screenshotLevel: reportingLevelType,
             htmlSnapshotLevel: reportingLevelType,
             taskTimeoutMin: { type: 'number', optional: true },
+            disableCache: { type: 'boolean', optional: true, default: false },
         },
     },
 });

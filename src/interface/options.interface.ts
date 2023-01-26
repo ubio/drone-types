@@ -5,6 +5,7 @@ export interface TaskOptions {
     screenshotLevel: ReportingLevel;
     htmlSnapshotLevel: ReportingLevel;
     taskTimeoutMin?: number;
+    disableCache?: boolean;
 }
 
 export const reportingLevelType = {
