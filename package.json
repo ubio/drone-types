@@ -34,7 +34,7 @@
         "typescript": "^4.8.4"
     },
     "dependencies": {
-        "@ubio/framework": "^14.1.1",
+        "@ubio/framework": "^13.10.0",
         "uuid": "^9.0.0"
     }
 }
